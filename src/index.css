@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dark{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  color: white;
+  height: 100vh;
+}
+.light{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: black;
+  height: 100vh;
+}
+.theme-btn{
+  background:white;
+  margin: 10px;
+  position:absolute;
+  left: 50%;
+  border-radius: 50%;
+}
