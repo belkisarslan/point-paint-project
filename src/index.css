@@ -42,7 +42,22 @@ code {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: orange;
+  background: var(--color);
   position: absolute;
-  transform: translate(-40px, -96px);
+  /* transform: translate(-40px, -96px); */
+  /* transform: translateX(-398%) translateY(calc(-100% - 86px)); */
+  transform: translate(-388px, -96px);
+}
+select{
+  border-radius: 3px;
+  color: #fff;
+  appearance: none;
+  border: 2px solid black;
+  padding: 0 10px;
+  background: var(--color);
+  position:absolute;
+  left: 50%;
+  margin-top: 55px;
+  border-radius: 8px;
+  height: 20px;
 }
